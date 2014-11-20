@@ -104,7 +104,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 # User settings
-AUTH_USER_MODEL = 'auth.User'
+AUTH_USER_MODEL = 'profiles.User'
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
