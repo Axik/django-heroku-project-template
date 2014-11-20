@@ -2,14 +2,14 @@ from django.views.generic import DetailView
 
 from braces.views import LoginRequiredMixin
 
-from .models import Profile
+from .models import User
 
 
-class ProfileDetailView(LoginRequiredMixin, DetailView):
-    model = Profile
+class UserDetailView(LoginRequiredMixin, DetailView):
+    model = User
 
     def get_object(self, queryset=None):
         return self.model.objects.get(user_id=self.request.user.id)
 
 
-profile_detail = ProfileDetailView.as_view()
+user_detail = UserDetailView.as_view()

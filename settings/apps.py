@@ -10,7 +10,6 @@ DJANGO_APPS = (
 
 THIRD_PARTY_APPS = (
     'gunicorn',
-    'south',
     'spurl',
     'django_extensions',
 )
