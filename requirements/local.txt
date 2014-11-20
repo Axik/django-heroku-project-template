@@ -4,4 +4,3 @@ coverage
 django-debug-toolbar
 bpython
 Sphinx
-dj-database-url

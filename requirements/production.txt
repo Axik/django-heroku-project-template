@@ -1,9 +1,9 @@
-Django
+Django>=1.7
 psycopg2
-South
 factory-boy
 Unipath
 gunicorn
 django-braces
 django-spurl
 django_extensions
+dj-database-url

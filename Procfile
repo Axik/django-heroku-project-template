@@ -1,2 +1,1 @@
-python manage.py collectstatic --noinput
-gunicorn wsgi --workers 3
+web: bash web
