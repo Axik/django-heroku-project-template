@@ -1,6 +1,5 @@
 -r production.txt
 coverage
--e git+https://github.com/Axik/django-coverage-py3.git#egg=django-coverage-py3
 django-debug-toolbar
 bpython
 Sphinx
